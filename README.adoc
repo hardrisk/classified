@@ -1,3 +1,4 @@
+:uri-license: {uri-rel-file-base}LICENSE
 # çok önemli
 
 https://hardrisk.github.io/classified/
