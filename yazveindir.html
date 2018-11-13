@@ -1,0 +1,27 @@
+<textarea id="avakado" rows="4" cols="34">This is the content of my file</textarea><br>
+<input type="button" id="indirbuton" value="Download">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="https://ourcodeworld.com/articles/read/189/how-to-create-a-file-and-generate-a-download-with-javascript-in-the-browser-without-a-server">kaynak</a><br>
+<script>
+function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+}
+
+// Start file download.
+document.getElementById("indirbuton").addEventListener("click", function() {
+    // Generate download of hello.txt file with some content
+    var text = document.getElementById("avakado").value;
+    var filename = "dosya.txt";
+
+    download(filename, text);
+}, false);
+</script>
