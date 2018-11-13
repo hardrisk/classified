@@ -1,1 +1,22 @@
 html ile yazılan bir sayfanın içinde karakterler bozuk görünüyorsa notepad++ ile açıp encodingi ANSI'den UTF-8'e çevir.
+
+div içeriğini kopyala:<br>
+
+<div class="code-bg" id="divim">
+...
+</div>
+<button onclick="copyClipboard()">Copy div content</button><br>
+
+<script>
+function copyClipboard() {
+  var elm = document.getElementById("divim");
+  if(window.getSelection) {
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(elm);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand("Copy");
+  }
+}
+</script>
