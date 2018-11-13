@@ -1,1 +1,21 @@
-nooo
+<textarea autofocus placeholder="yazın..." rows="14" style="width: 90%;" name="data" id="elma"></textarea><br><br>
+<textarea rows="14" style="width: 90%;" name="another" id="armut"></textarea><br>
+<input type="button" name="submit1" value="uygula" onclick="TextDefine(document.getElementById('elma'))">
+
+<script language="javascript" type="text/javascript">
+function TextDefine(val) {
+    var i = 0;
+    var array1 = val.value.split("\n");
+    for (i = 0; i < array1.length; ++i) {
+        array1[i] = '<a href=\"' + array1[i] + '\">' + array1[i] + '</a><br>';
+    }
+    document.getElementById('armut').value = array1.join("\n");
+}
+</script>
+<script>
+document
+    .getElementById("elma")
+    .addEventListener("keyup", function(e) {
+        document.getElementById("armut").innerHTML = e.target.value;
+    });
+</script>
