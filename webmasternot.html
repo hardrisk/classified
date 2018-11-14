@@ -25,3 +25,16 @@ http://www.sitekodlari.com</textarea>
 
 
 </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<textarea id="source" type="text" oninput="copyData('source', 'target')"></textarea><br><br>
+<textarea id="target"></textarea>
+
+
+<script type="text/javascript">
+      function copyData(sourceId, targetId) {
+        var data = document.getElementById(sourceId).value;
+        document.getElementById(targetId).innerHTML = data;
+      }
+</script>
