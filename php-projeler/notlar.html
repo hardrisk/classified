@@ -1,0 +1,36 @@
+DEĞİŞKENDE YER ALAN STRINGİN İÇERİĞİNİ DEĞİŞTİRMEK İÇİN: (değişkende geçen her "ahmet" "ayşe" olur)<p>
+
+str_replace('ahmet', 'ayşe', $degiskenadi);
+<a href="https://stackoverflow.com/questions/12017323/delete-particular-word-from-string/12017329">kaynak</a><br>
+
+<hr>
+
+echo str_replace("<br>","","Hello world<br>");
+
+hello world içinde <br> arayıp boşluk ile replace eder
+
+<hr>
+
+LİNKLERİ LİNK ŞEKLİNDE ÇIKARMAK İÇİN:<p>
+
+$url = '@(http)?(s)?(://)?(([a-zA-Z])([-\w]+\.)+([^\s\.]+[^\s]*)+[^,.\s])@';
+$deiskenadi = preg_replace($url, '<a href="http$2://$4" target="_blank" title="$0">$0</a>', $degiskenadi);
+<a href="https://stackoverflow.com/questions/1960461/convert-plain-text-urls-into-html-hyperlinks-in-php">kaynak</a><br>
+
+<hr>
+
+CREATE TABLE info (
+   id INT AUTO_INCREMENT primary key NOT NULL,
+   isim VARCHAR(100) NOT NULL,
+   mesaj VARCHAR(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf32;
+
+<hr>
+
+siten http yerine httpsye gitmiyorsa httpsye yönlendirmek için htaccess içine şunları yaz:
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+<hr>
