@@ -1,10 +1,10 @@
-﻿<html>
+<html>
 <head>
 <link rel="icon" href="https://github.com/favicon.ico" type="image/x-icon">
 <title>Müzik dinle ♫</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body bgcolor=gray><center>
+<body bgcolor="gray"><center>
 <style>
 input{border:2px solid black;outline:none}
 </style>
@@ -17,7 +17,7 @@ data-config="{'skin':'https://scmplayer.co/skins/black/skin.css','volume':65,'au
 ,{'title':'Bryan Adams - Everything I Do','url':'https://www.youtube.com/watch?v=fx52CKXsp3Q'},{'title':'Pink Floyd - Wish You Were Here','url':'https://www.youtube.com/watch?v=9P16xvwMQ5A'},{'title':'Bruce Springsteen - Hungry Heart','url':'https://www.youtube.com/watch?v=boJhWtw-6Gg'},{'title':'Steelheart - She\'s Gone','url':'https://www.youtube.com/watch?v=ICJs1CxCRt0'},{'title':'Iron Maiden - Wasting Love','url':'https://www.youtube.com/watch?v=SbWeP7KkeCU'},{'title':'Iron Maiden - Hallowed Be Thy Name','url':'https://www.youtube.com/watch?v=J51LPlP-s9o'},{'title':'The Mamas & the Papas - California Dreamin\'','url':'https://www.youtube.com/watch?v=qhZULM69DIw'},{'title':'Kaiser Chiefs - Ruby','url':'https://www.youtube.com/watch?v=qObzgUfCl28'},{'title':'Foster The People - Houdini','url':'https://www.youtube.com/watch?v=Z9XJ2_YdRHA'},{'title':'Norm Ender - Çıktık Yine Yollara','url':'https://www.youtube.com/watch?v=-dL-hDLTnEE'},{'title':'Norm Ender - Sözler Şerefsiz Oldu','url':'https://www.youtube.com/watch?v=b9QApLJ3TI0'},{'title':'Megadeth - Dystopia','url':'https://www.youtube.com/watch?v=QrV61ATP3Ec'},{'title':'Megadeth - The Threat Is Real','url':'https://www.youtube.com/watch?v=4mfjpwqdUMI'},{'title':'Megadeth - Post American World','url':'https://www.youtube.com/watch?v=mEkXyEIu3OU'},{'title':'Acid Arab - Stil','url':'https://www.youtube.com/watch?v=kVyTLx2e_tQ'},{'title':'Dream Theater - Forsaken','url':'https://www.youtube.com/watch?v=dRBP1rpE5y8'}]}"></script>
 <br>
 <?php include "linkolustur.php"; ?><a href="linkolustur.php">linkolustur.php</a><br>
-<!-- ,{'title':'VIDEOTITLE','url':'https://www.youtube.com/watch?v=VIDEO_ID'} -->
+<!-- ,{'title':'VIDEO_TITLE','url':'https://www.youtube.com/watch?v=VIDEO_ID'} -->
 <!-- Wikplayer code end -->
 </center>
 </body>
