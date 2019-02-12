@@ -6,9 +6,9 @@ $asd = ($_POST["email"]);
 if (isset($_POST["btn"]))
 {
 echo "<center>";
-echo "<textarea>,{'title':'" .$az;
+echo "<textarea id=\"az12\">,{'title':'" .$az;
 echo "','url':'" .$asd;
-echo "'}</textarea><br>";
+echo "'}</textarea><br><button onclick=\"asd45()\">kopyala</button>";
 }
 ?>
 
@@ -18,6 +18,7 @@ echo "'}</textarea><br>";
 <body bgcolor="gray">
 <style>
 input{outline:none;text-align:center}
+button{border:2px solid black}
 textarea{font-size:80%;text-align:center;width:600px;height:80px;outline:none;border:2px solid black;z-index:1}
 </style>
 <center><br><br>
@@ -32,4 +33,13 @@ Link: <br><input size="40" type="text" name="email" placeholder="video linki"><b
 </center>
 
 </body>
+
+<script>
+function asd45() {
+  var copyText = document.getElementById("az12");
+  copyText.select();
+  document.execCommand("copy");
+}
+</script>
+
 </html>
