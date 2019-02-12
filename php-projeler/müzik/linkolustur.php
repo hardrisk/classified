@@ -9,7 +9,7 @@ echo "<center>";
 echo "<textarea>,{'title':'" .$az;
 echo "','url':'" .$asd;
 echo "'}</textarea><br>";
-}else
+}
 ?>
 
 
@@ -17,7 +17,7 @@ echo "'}</textarea><br>";
 <html>
 <body bgcolor="gray">
 <style>
-input{;outline:none;text-align:center}
+input{outline:none;text-align:center}
 textarea{font-size:80%;text-align:center;width:600px;height:80px;outline:none;border:2px solid black;z-index:1}
 </style>
 <center><br><br>
