@@ -1,0 +1,2 @@
+- veritabanı ve vtyedekle.php dosyası buraya yüklenecek.
+- indexvol2.php temel dosya, onu kullan.
