@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 error_reporting(0);
 //connect to database (üyelik sistemi için)
@@ -32,7 +32,6 @@ echo "</label><br><span style='font-size:14px;color:red;margin-left:87%'>$yazan<
 <head>
 <title>Vice Sözlük</title>
 <meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <base targ="_blank">
