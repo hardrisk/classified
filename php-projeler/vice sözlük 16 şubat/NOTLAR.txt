@@ -1,2 +1,8 @@
-- veritabanı ve vtyedekle.php dosyası buraya yüklenecek.
-- indexvol2.php temel dosya, onu kullan.
+- veritabanı ve vtyedekle.php dosyaları buraya yüklenecek.
+- indexvol2.php güncel dosya, onu kullan.
+
+yapılacaklar:
+
+- index'teki styling kodları css dosyasına aktarılacak.
+- sessiona isim verilecek veya sessionlar karışmayacak şekilde ayarlanacak.
+- pdo benzeri bir şeyle her sayfaya title eklenecek.
