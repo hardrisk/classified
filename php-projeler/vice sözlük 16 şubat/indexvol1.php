@@ -3,7 +3,6 @@ session_start();
 error_reporting(0);
 //connect to database (üyelik sistemi için)
 $db=mysqli_connect("localhost","username","password","dbname");
-
 ?>
 <meta charset="utf-8">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
