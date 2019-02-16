@@ -8,7 +8,7 @@ yapılacaklar:
 - pdo benzeri bir şeyle her sayfaya title eklenecek.
 - url'lerden uzantılar kaldırılacak.
 
-kurulum için varlığı gerekli olan dosyalar:
+kurulum için gerekli dosyalar:
 
 - baglan.php
 - index.php
@@ -16,9 +16,11 @@ kurulum için varlığı gerekli olan dosyalar:
 - indextekisaatjquery-1.7.2.min.js
 - login.php
 - logout.php
+- veritabanı.sql
 
 diğerleri:
 
 - .htaccess
 - favicon.ico
 - register.php
+- vtyedekle.php 
