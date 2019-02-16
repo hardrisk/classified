@@ -6,8 +6,9 @@ yapılacaklar:
 - index'teki styling kodları css dosyasına aktarılacak.
 - sessiona isim verilecek veya sessionlar karışmayacak şekilde ayarlanacak.
 - pdo benzeri bir şeyle her sayfaya title eklenecek.
+- url'lerden uzantılar kaldırılacak.
 
-kurulum için varlığı şart olan dosyalar:
+kurulum için varlığı gerekli olan dosyalar:
 
 - baglan.php
 - index.php
@@ -15,3 +16,9 @@ kurulum için varlığı şart olan dosyalar:
 - indextekisaatjquery-1.7.2.min.js
 - login.php
 - logout.php
+
+diğerleri:
+
+- .htaccess
+- favicon.ico
+- register.php
