@@ -1,0 +1,7 @@
+bu proje bilgisayardaki "inci yeni güncel" klasöründen alınıp geliştirildi.
+
+yapılacaklar:
+
+- kesme işareti yazma ayarlanacak (islem.php)
+- nl2br ayarlanacak (islem.php)
+- ff
