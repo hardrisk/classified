@@ -1,0 +1,6 @@
+bu proje bilgisayardaki "inci yeni güncel" klasöründen alýnýp geliþtirildi.
+
+yapýlacaklar:
+
+- kesme iþareti yazma ayarlanacak (islem.php)
+- nl2br ayarlanacak (islem.php)
